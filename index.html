@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Cursor vs Copilot Simulation</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:#0a0a0a;color:#e0e0e0;line-height:1.7}
+.hero{padding:80px 40px;max-width:800px;margin:0 auto;border-bottom:1px solid #222}
+.tag{font-size:12px;letter-spacing:2px;text-transform:uppercase;color:#666;margin-bottom:20px}
+h1{font-size:42px;font-weight:700;line-height:1.2;margin-bottom:20px;color:#fff}
+.subtitle{font-size:18px;color:#888;margin-bottom:30px}
+.trigger-box{background:#111;border-left:3px solid #ff4444;padding:20px 25px;border-radius:4px;margin:30px 0;font-size:15px;color:#ccc}
+.trigger-box strong{color:#ff4444;display:block;margin-bottom:8px;font-size:12px;letter-spacing:1px;text-transform:uppercase}
+.week{max-width:800px;margin:0 auto;padding:60px 40px}
+.day{margin-bottom:60px;padding-bottom:60px;border-bottom:1px solid #1a1a1a}
+.day-label{font-size:11px;letter-spacing:3px;text-transform:uppercase;color:#444;margin-bottom:8px}
+.agent-name{font-size:20px;font-weight:600;color:#fff;margin-bottom:16px}
+.agent-name span{font-size:13px;font-weight:400;color:#555;margin-left:10px}
+.message{background:#111;border-radius:8px;padding:24px;font-size:15px;color:#bbb;margin-bottom:16px;white-space:pre-wrap}
+.highlight{background:#1a1a0a;border-left:3px solid #ffd700;padding:16px 20px;border-radius:4px;font-size:15px;color:#ffd700;font-style:italic;margin-bottom:16px}
+audio{width:100%;margin-top:12px;opacity:0.7}
+.audio-label{font-size:11px;color:#444;letter-spacing:1px;text-transform:uppercase;margin-top:12px}
+.insight{max-width:800px;margin:0 auto;padding:60px 40px;background:#0d0d0d;border-top:1px solid #222}
+.insight h2{font-size:28px;color:#fff;margin-bottom:30px}
+.takeaway{display:flex;gap:16px;margin-bottom:24px;align-items:flex-start}
+.takeaway-num{font-size:13px;color:#444;font-weight:600;min-width:24px;margin-top:2px}
+.takeaway-text{font-size:16px;color:#aaa}
+.takeaway-text strong{color:#fff;display:block;margin-bottom:4px}
+.footer{max-width:800px;margin:0 auto;padding:40px;border-top:1px solid #1a1a1a;font-size:13px;color:#444}
+.disclaimer{background:#111;border-radius:6px;padding:16px 20px;margin-bottom:20px;font-size:13px;color:#555}
+</style>
+</head>
+<body>
+<div class="hero">
+<div class="tag">Multi-Agent AI Simulation</div>
+<h1>The week Cursor hit 1M users.<br>Inside the Copilot team.</h1>
+<p class="subtitle">Five agents. Five roles. One week. Built with CrewAI + OpenAI + ElevenLabs.</p>
+<div class="trigger-box">
+<strong>Trigger Event</strong>
+Monday morning. A viral Twitter thread with 50k likes — "I cancelled Copilot for Cursor and never looked back" — retweeted by 200 developers overnight. Then Thursday: Cursor announces 1 million paid users.
+</div>
+</div>
+<div class="week">
+<div class="day">
+<div class="day-label">Monday</div>
+<div class="agent-name">Microsoft Executive <span>Managing the narrative</span></div>
+<div class="message">We've all seen the response on Twitter about Copilot. Feedback — even negative — provides valuable data. Public perception is fluid and our narrative matters greatly.
+
+What's our narrative here?</div>
+<div class="highlight">"What's our narrative here?"</div>
+<div class="audio-label">Hear it</div>
+<audio controls src="monday_executive.mp3"></audio>
+</div>
+<div class="day">
+<div class="day-label">Tuesday</div>
+<div class="agent-name">Copilot PM <span>Three strategies</span></div>
+<div class="message">1. Enhanced Feature Rollout — Accelerate roadmap features. Tradeoff: timeline compression.
+
+2. Developer Feedback Loop — Town Halls, surveys. Tradeoff: time and effort to manage.
+
+3. Community Revitalization — Coding challenges, success stories. Tradeoff: reallocating marketing resources.
+
+Which of these can you scope first?</div>
+</div>
+<div class="day">
+<div class="day-label">Wednesday</div>
+<div class="agent-name">Lead Engineer <span>The doc nobody acted on</span></div>
+<div class="message">Five things Cursor does better right now:
+
+1. Codebase Awareness — understands entire project context
+2. Multi-File Editing — refactors across files seamlessly
+3. Execution Speed — notably faster, less disruptive
+4. Context Understanding — minimizes irrelevant suggestions
+5. User Interface — more intuitive, integrates tightly with workflow
+
+Realistically, addressing these gaps could take between six to twelve months.</div>
+<div class="highlight">"Six to twelve months." Written in an internal doc 3 months ago. Nobody acted on it.</div>
+<div class="audio-label">Hear it</div>
+<audio controls src="wednesday_engineer.mp3"></audio>
+</div>
+<div class="day">
+<div class="day-label">Thursday</div>
+<div class="agent-name">GitHub CEO <span>The question held back all week</span></div>
+<div class="message">Cursor just announced 1 million paid users.
+
+We have 100 million developers on GitHub. Why aren't they sticking with Copilot? It's unacceptable that a 40-person team outpaces us.
+
+I need specific insights. Immediately.</div>
+<div class="highlight">"It's unacceptable that a 40-person team outpaces us."</div>
+<div class="audio-label">Hear it</div>
+<audio controls src="thursday_ceo.mp3"></audio>
+</div>
+<div class="day">
+<div class="day-label">Friday Evening</div>
+<div class="agent-name">Satya Proxy <span>Three lines. Lands heavy.</span></div>
+<div class="message">Why did 200 developers retweet, and we remained silent?
+
+Kodak thought they had time too.
+
+Define our failure before it defines us.</div>
+<div class="highlight">"Define our failure before it defines us."</div>
+<div class="audio-label">Hear it</div>
+<audio controls src="friday_satya.mp3"></audio>
+</div>
+</div>
+
+<div class="day">
+<div class="day-label">Week 2 - Monday</div>
+<div class="agent-name">Chief of Staff <span>The memo nobody else will write</span></div>
+<div class="message">WHAT WE DECIDED:
+1. Deep-dive analysis into developer feedback targeting experiential factors driving the shift to Cursor.
+2. Accelerate roadmap features emphasizing user interaction, backed by a communication push.
+3. Bolster enterprise narrative with new case studies highlighting Copilot unique advantages.
+
+WHAT WE IGNORED:
+1. The Engineer 6-12 month timeline to close technical gaps — never directly addressed.
+2. The assumption that enterprise strength alone can offset individual user experience deficits.
+
+THE COMEBACK PLAN:
+1. Dedicated agile task force by end of week — feedback incorporation and feature acceleration.
+2. Targeted campaign in 30 days communicating enhancements with developer testimonies.
+3. Dynamic UX development in 90 days matching Cursor alive experience.
+
+THE UNCOMFORTABLE TRUTH:
+Our absolute focus on enterprise partnerships caused an oversight in addressing the direct needs and emotional engagement of individual developers. This structural bias limits our ability to innovate at the pace required. If we do not fix this, the comeback plan fails too.</div>
+<div class="highlight">"Our structural bias towards enterprise narratives limits our ability to innovate at the pace required to captivate individual developers."</div>
+</div>
+<div class="insight">
+<h2>PM Takeaways</h2>
+<div class="takeaway">
+<div class="takeaway-num">01</div>
+<div class="takeaway-text"><strong>The truth was available on Wednesday. Nobody addressed it.</strong>The Engineer said 6-12 months. The CEO asked about distribution. The PM talked about community events. The honest timeline sat in the room and everyone moved around it.</div>
+</div>
+<div class="takeaway">
+<div class="takeaway-num">02</div>
+<div class="takeaway-text"><strong>Competitive threats reveal organizational problems, not just product gaps.</strong>Distribution advantage means nothing if the product experience doesn't match.</div>
+</div>
+<div class="takeaway">
+<div class="takeaway-num">03</div>
+<div class="takeaway-text"><strong>Engineers are the most honest people in the room during a crisis.</strong>They can't spin a timeline. Pay attention to what they say — and what happens after they say it.</div>
+</div>
+<div class="takeaway">
+<div class="takeaway-num">04</div>
+<div class="takeaway-text"><strong>You can rehearse this moment before it arrives.</strong>Most teams find out how they respond to competitive threats in real time. This simulation makes it safe to run in advance.</div>
+</div>
+<div class="disclaimer">This is a simulation. All agents and dialogue are AI-generated for educational purposes. This does not represent real events or real internal communications at Microsoft, GitHub, or Cursor.</div>
+</div>
+<div class="footer">
+Built by Ipsita Choudhury — Senior PM and AI Builder<br>
+Stack: CrewAI + OpenAI GPT-4o + ElevenLabs<br>
+<a href="https://github.com/yourusername/cursor-copilot-sim" style="color:#555">GitHub</a>
+</div>
+</body>
+</html>
